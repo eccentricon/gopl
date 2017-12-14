@@ -1,2 +1,2 @@
 # gopl
-Exercises/experiments from "The Go Programming Language"
+Exercises/experiments from "The Go Programming Language".
