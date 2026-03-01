@@ -1,0 +1,7 @@
+bin/
+*.pdf
+*.zip
+
+### Mac OS ###
+.DS_Store
+*.dSYM/
