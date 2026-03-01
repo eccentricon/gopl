@@ -7,10 +7,14 @@ import (
 )
 
 func main() {
+	fmt.Println(Echo(os.Args[1:]))
+}
+
+func Echo(args []string) string {
 	var s, sep string
-	for i := 1; i < len(os.Args); i++ {
-		s +=  sep + os.Args[i]
+	for i := 0; i < len(args); i++ {
+		s += sep + args[i]
 		sep = " "
 	}
-	fmt.Println(s)
+	return s
 }

@@ -7,5 +7,8 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Join(os.Args[1:], " "))
+	fmt.Println(Echo(os.Args[1:]))
+}
+func Echo(args []string) string {
+	return strings.Join(args, " ")
 }

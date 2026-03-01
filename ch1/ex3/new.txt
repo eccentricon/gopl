@@ -1,0 +1,16 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/eccentricon/gopl/ch1/echo3
+cpu: Apple M1 Pro
+BenchmarkEcho-10    	   16717	     70865 ns/op
+BenchmarkEcho-10    	   17092	     70413 ns/op
+BenchmarkEcho-10    	   17077	     70399 ns/op
+BenchmarkEcho-10    	   17042	     70343 ns/op
+BenchmarkEcho-10    	   17048	     70546 ns/op
+BenchmarkEcho-10    	   16926	     70436 ns/op
+BenchmarkEcho-10    	   17000	     70475 ns/op
+BenchmarkEcho-10    	   17014	     71018 ns/op
+BenchmarkEcho-10    	   17042	     70493 ns/op
+BenchmarkEcho-10    	   17059	     70562 ns/op
+PASS
+ok  	github.com/eccentricon/gopl/ch1/echo3	19.200s
